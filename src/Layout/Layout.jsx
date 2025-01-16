@@ -5,11 +5,11 @@ import Footer from '../Shared/Footer/Footer'
 
 const Layout = () => {
   return (
-    <>
-        <Header></Header>
-        <Outlet></Outlet>
-        <Footer></Footer>
-    </>
+    <div className='max-w-[1440px] m-auto'>
+      <Header></Header>
+      <Outlet></Outlet>
+      <Footer></Footer>
+    </div>
   )
 }
 
