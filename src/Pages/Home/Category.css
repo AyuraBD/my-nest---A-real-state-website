@@ -1,0 +1,8 @@
+.overlay-text{
+    transition: all 0.5s;
+}
+.single:hover .overlay-text{
+    height: 100%;
+    transition: all 0.5s;
+    margin:0px;
+}

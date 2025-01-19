@@ -1,0 +1,155 @@
+[
+    {
+      "id": 1,
+      "title": "Modern Family Home",
+      "img": "https://i.ibb.co.com/vhzjs8W/pool1.jpg",
+      "segment_name": "Luxury",
+      "description": "A spacious 4-bedroom family home in a peaceful neighborhood with modern amenities.",
+      "price": 500000,
+      "status": "sale",
+      "pool": "Yes",
+      "location": "Downtown, City Center",
+      "facilities": {
+        "bedrooms": 4,
+        "living_rooms": 2,
+        "showers": 3,
+        "area": "2000 sq ft"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Cozy Apartment",
+      "img": "https://i.ibb.co.com/tD6KXgw/apartment1.jpg",
+      "segment_name": "Budget",
+      "description": "Affordable and cozy 2-bedroom apartment close to local shops and transport links.",
+      "price": 150000,
+      "status": "sale",
+      "pool": "No",
+      "location": "Suburban, West District",
+      "facilities": {
+        "bedrooms": 2,
+        "living_rooms": 1,
+        "showers": 1,
+        "area": "800 sq ft"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Luxury Penthouse",
+      "img": "https://i.ibb.co.com/n0qRbNv/pool2.jpg",
+      "segment_name": "Premium",
+      "description": "An exclusive penthouse offering stunning city views and premium amenities.",
+      "price": 1200000,
+      "status": "sale",
+      "pool": "Yes",
+      "location": "Central Business District",
+      "facilities": {
+        "bedrooms": 3,
+        "living_rooms": 1,
+        "showers": 3,
+        "area": "2500 sq ft"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Beachfront Villa",
+      "img": "https://i.ibb.co.com/3dcG2kQ/single.jpg",
+      "segment_name": "Luxury",
+      "description": "Stunning villa right on the beachfront, ideal for luxury living or a holiday retreat.",
+      "price": 800000,
+      "status": "rent",
+      "pool": "No",
+      "location": "Seaside Avenue",
+      "facilities": {
+        "bedrooms": 5,
+        "living_rooms": 2,
+        "showers": 4,
+        "area": "3000 sq ft"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Urban Studio Apartment",
+      "img": "https://i.ibb.co.com/TTqc1TV/single2.jpg",
+      "segment_name": "Economy",
+      "description": "Compact and stylish studio apartment in the heart of the city.",
+      "price": 120000,
+      "status": "rent",
+      "pool": "No",
+      "location": "City Downtown",
+      "facilities": {
+        "bedrooms": 1,
+        "living_rooms": 0,
+        "showers": 1,
+        "area": "450 sq ft"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Country Cottage",
+      "img": "https://i.ibb.co.com/J7Dh7Jb/double2.jpg",
+      "segment_name": "Rustic",
+      "description": "A charming cottage surrounded by nature, perfect for a quiet lifestyle.",
+      "price": 300000,
+      "status": "sale",
+      "pool": "No",
+      "location": "Hillside Village",
+      "facilities": {
+        "bedrooms": 3,
+        "living_rooms": 1,
+        "showers": 2,
+        "area": "1500 sq ft"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Suburban Family Home",
+      "img": "https://i.ibb.co.com/yp5r7Sq/pool4.jpg",
+      "segment_name": "Mid-range",
+      "description": "Spacious and family-friendly home with a large backyard and modern interiors.",
+      "price": 400000,
+      "status": "sale",
+      "pool": "Yes",
+      "location": "Greenwood Suburbs",
+      "facilities": {
+        "bedrooms": 4,
+        "living_rooms": 2,
+        "showers": 3,
+        "area": "2200 sq ft"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Luxury Condo",
+      "img": "https://i.ibb.co.com/xz0Xtpd/pool3.jpg",
+      "segment_name": "Premium",
+      "description": "A luxurious condo with access to world-class amenities and a private balcony.",
+      "price": 2500,
+      "status": "rent",
+      "pool": "Yes",
+      "location": "Skyline Towers",
+      "facilities": {
+        "bedrooms": 2,
+        "living_rooms": 1,
+        "showers": 2,
+        "area": "1200 sq ft"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Modern Duplex",
+      "img": "https://i.ibb.co.com/ZzFFSbs/double.jpg",
+      "segment_name": "Contemporary",
+      "description": "Stylish duplex with open-concept design and modern finishes.",
+      "price": 600000,
+      "status": "sale",
+      "pool": "No",
+      "location": "Urban Heights",
+      "facilities": {
+        "bedrooms": 3,
+        "living_rooms": 2,
+        "showers": 3,
+        "area": "1800 sq ft"
+      }
+    }
+  ]

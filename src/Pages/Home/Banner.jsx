@@ -19,7 +19,6 @@ const Banner = () => {
 			allowSlidePrev={true}
 			autoplay
 			loop
-			onAutoplay={true}
 			modules={Navigation} 
 			className="mySwiper h-[100vh] z-0">
 				<SwiperSlide>
