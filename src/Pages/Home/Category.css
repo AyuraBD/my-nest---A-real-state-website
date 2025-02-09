@@ -1,3 +1,10 @@
+.category-icon{
+    transition: all 0.5s;
+}
+.category-single:hover .category-icon{
+    background-color: #6A80B9;
+    transition: all 0.5s;
+}
 .overlay-text{
     transition: all 0.5s;
 }

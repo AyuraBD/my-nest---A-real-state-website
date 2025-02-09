@@ -1,12 +1,25 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React, { useContext } from 'react'
+import { Link, NavLink } from 'react-router-dom'
+import { AuthContext } from '../../Provider/Authprovider'
 
 const Header = () => {
+  const {user, loading, logOut} = useContext(AuthContext);
+
   const navLinks = <>
     <li><NavLink to="/">Home</NavLink></li>
     <li><NavLink to="/aboutus">About us</NavLink></li>
     <li><NavLink to="/properties">Our properties</NavLink></li>
-  </>
+    {user && <li><NavLink to="/profile">My profile</NavLink></li>}
+  </>;
+  const handleLogOut = ()=>{
+    logOut()
+    .then(()=>{
+      if(loading){
+        return <span className="loading loading-ring loading-lg"></span>
+      }
+    })
+    .catch(()=>{});
+  }
   return (
     <div className="bg-white lg:px-14 md:px-8 sm:px-4 max-sm:px-0">
       <div className="navbar bg-base-100">
@@ -32,7 +45,7 @@ const Header = () => {
               {navLinks}
             </ul>
           </div>
-          <a className="font-roboto text-2xl font-bold">My Nest</a>
+          <Link to="/" className="font-roboto text-2xl font-bold">My Nest</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-4">
@@ -40,7 +53,11 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className="bg-main border border-main hover:bg-transparent hover:text-main duration-500 text-white px-3 py-2 font-semibold ">Sign up</button>
+          {user ? 
+          <div className='flex justify-center items-center gap-2'>
+            <Link to="/profile"><abbr title={user.displayName}><img className='w-10 h-10 rounded-full' src={user.photoURL} alt="" /></abbr></Link>
+            <button onClick={handleLogOut} className="bg-main border border-main hover:bg-transparent hover:text-main duration-500 text-white px-3 py-2 font-semibold ">Log out</button>
+          </div> : <Link to="/login" className="bg-main border border-main hover:bg-transparent hover:text-main duration-500 text-white px-3 py-2 font-semibold ">Login</Link>}
         </div>
       </div>
     </div>
